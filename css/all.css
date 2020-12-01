@@ -46,11 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* 通用 */
-/* *{
-	outline: 1px solid greenyellow;
-} */
 *,*::before,*::after{
     box-sizing: border-box;
     text-decoration: none;
@@ -67,7 +63,6 @@ body {
 h1, h2, h3, h4, h5, h6{
  line-height: 1.2;
 }
-
 .container{
 	max-width: 1110px;
 	margin: 0 auto;
@@ -75,6 +70,14 @@ h1, h2, h3, h4, h5, h6{
 .contact-container{
 	max-width: 730px;
 	margin: 0 auto;
+}
+.txt-center{
+	text-align: center;
+}
+/* 移除btn內建樣式 */
+input {
+	-webkit-appearance: none; 
+    -moz-appearance: none;
 }
 /* display */
 .d-flex{
@@ -121,7 +124,7 @@ h1, h2, h3, h4, h5, h6{
 }
 /* color */
 .txt-primary{
-  color: #AA0601;
+    color: #AA0601;
 
 }
 .txt-secondary{
@@ -131,7 +134,7 @@ h1, h2, h3, h4, h5, h6{
 	color: #ffffff;
 }
 .txt-dark{
-  color: #212529;
+    color: #212529;
 }
 .txt-muted{
 	color: #707070;
@@ -255,6 +258,7 @@ h1, h2, h3, h4, h5, h6{
 .p-1{
 	padding: 16px;
 }
+/* nav */
 .logo{
 	width: 80px;
 	vertical-align: middle;
@@ -262,8 +266,9 @@ h1, h2, h3, h4, h5, h6{
 .header-nav .header-nav-item{
 	width: 512px;
 }
+/* nav */
 
-
+/* banner */
 header{
 	background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner.png') no-repeat center center;
 	height: 840px;
@@ -277,10 +282,9 @@ header .header-title{
 header h2{
 	font-size: 64px;
 }
-.txt-center{
-	text-align: center;
-}
+/* banner */
 
+/* 用專業的心 */
 .about-list .about-list-item{
 	width: 25%;
 	padding-left: 38px;
@@ -289,6 +293,8 @@ header h2{
 .about-list-item img{
 	margin: 0 auto;
 }
+/* 用專業的心 */
+/* 經典系列鏡框 */
 .classic-item .classic-item-optical{
 	width: 635px;
 	height: 320px;
@@ -299,7 +305,6 @@ header h2{
 .classic-item-optical h4{
 	display: none;
 }
-
 .classic-item .classic-item-sunglasses{
 	width: 635px;
 	height: 320px;
@@ -320,13 +325,13 @@ header h2{
 .classic-item-functional h4{
 	display: none;
 }
-
+/* 經典系列鏡框 */
+/* 聯名設計鏡框 */
 .design{
 	background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/bg.png) center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
-
 .design-item{
 	width: 48%;
 	position: relative;
@@ -354,10 +359,12 @@ header h2{
 .design-item a:hover span{
 	opacity: .5;
 }
+/* 聯名設計鏡框 */
 
 .border{
 	border: 1px solid #DEE2E6;
 }
+/* 聯絡我們 */
 .contact input[type="text"],textarea{
 	width: 100%;
 	margin-top: 4px;
@@ -379,6 +386,8 @@ header h2{
 .contact input[type="submit"]:hover{
 	background-color: #650300;
 }
+/* 聯絡我們 */
+/* footer */
 .footer-info :first-child img{
 	padding-left: 6px;
 	padding-right: 6px;
@@ -391,6 +400,7 @@ footer .container > div:first-child{
 	opacity: .5;
 	transition: all .5s;
 }
+/* footer */
 .recommend .recommend-list{
 	width: 23%;
 }
@@ -412,12 +422,6 @@ footer .container > div:first-child{
 		width: 40%;
 		margin-bottom: 40px;
 	}
-	/* .about-list li:first-child{
-		margin-bottom: 40px;
-	} */
-	/* .about-list .about-list-item img{
-		padding-bottom: 16px;
-	} */
 	.pb-md-2{
 		padding-bottom: 16px;
 	}
@@ -433,7 +437,6 @@ footer .container > div:first-child{
 	.h2{
 		font-size: 28px;
 	}
-	
 	.header-nav .header-nav-item{
 		width: 440px;
 	}
@@ -547,7 +550,6 @@ footer .container > div:first-child{
 		/* max-width: 450px; */
 		padding-left: 140px;
 		padding-right: 140px;
-
 	}
 	footer .container div:last-child img{
 		display: none;
@@ -558,7 +560,6 @@ footer .container > div:first-child{
 	footer .footer-info img{
 		width: 32px;
 	}
-	
 	.mr-md-1{
 		margin-right: 24px;
 	}
@@ -686,4 +687,3 @@ footer .container > div:first-child{
 		padding-top: 32px;
 	}
 }
-/* @media screen and (max-width:375px){} */
