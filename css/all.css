@@ -74,11 +74,7 @@ h1, h2, h3, h4, h5, h6{
 .txt-center{
 	text-align: center;
 }
-/* 移除btn內建樣式 */
-input {
-	-webkit-appearance: none; 
-    -moz-appearance: none;
-}
+
 /* display */
 .d-flex{
 	display: flex;
@@ -382,11 +378,15 @@ header h2{
 	border: none;
 	padding: 16px 143px;
 	cursor: pointer;
+	/* 移除btn內建樣式 */
+	-webkit-appearance: none; 
+    -moz-appearance: none;
 }
 .contact input[type="submit"]:hover{
 	background-color: #650300;
 }
 /* 聯絡我們 */
+
 /* footer */
 .footer-info :first-child img{
 	padding-left: 6px;
