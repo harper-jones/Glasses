@@ -120,11 +120,10 @@ h1, h2, h3, h4, h5, h6{
 }
 /* color */
 .txt-primary{
-    color: #AA0601;
-
+    color: #d84339;
 }
 .txt-secondary{
-	color: #650300;
+	color: #615a50;
 }
 .txt-light{
 	color: #ffffff;
@@ -136,10 +135,11 @@ h1, h2, h3, h4, h5, h6{
 	color: #707070;
 }
 .bg-primary{
-	background-color: #AA0601;
+	background-color: #d84339;
 }
 .bg-light{
 	background: #fbf2f2;
+	background: #e8dccc;
 }
 
 /* fz 14 16 20 24 28 36 48 64  */
@@ -266,7 +266,7 @@ h1, h2, h3, h4, h5, h6{
 
 /* banner */
 header{
-	background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner.png') no-repeat center center;
+	background: url('../img/index1.jpg') no-repeat center 25%;
 	height: 840px;
 	background-size: cover;
 }
@@ -288,43 +288,47 @@ header h2{
 }
 .about-list-item img{
 	margin: 0 auto;
+	width: 100px;
 }
 /* 用專業的心 */
 /* 經典系列鏡框 */
-.classic-item .classic-item-optical{
+.classic-item .classic-item-original{
 	width: 635px;
 	height: 320px;
-	background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/product-1.png) center center no-repeat;
+	background: url('../img/product1.jpeg') center center no-repeat;
 	background-size: cover;
 }
-.classic-item-optical img,
-.classic-item-optical h4{
+.classic-item-original img,
+.classic-item-original h4{
 	display: none;
 }
-.classic-item .classic-item-sunglasses{
+.classic-item .classic-item-wayfarer{
 	width: 635px;
 	height: 320px;
-	background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/product-2.png) center center no-repeat;
+	background: url('../img/product2.jpg') center center no-repeat;
 	background-size: cover;
 }
-.classic-item-sunglasses img,
-.classic-item-sunglasses h4{
+.classic-item-wayfarer img,
+.classic-item-wayfarer h4{
 	display: none;
 }
-.classic-item .classic-item-functional{
+.classic-item .classic-item-legends{
 	width: 635px;
 	height: 320px;
-	background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/product-3.png) center center no-repeat;
+	background: url('../img/product3.jpg') center center no-repeat;
 	background-size: cover;
 }
-.classic-item-functional img,
-.classic-item-functional h4{
+.classic-item-legends img,
+.classic-item-legends h4{
 	display: none;
+}
+.classic li img{
+	width: 50px;
 }
 /* 經典系列鏡框 */
 /* 聯名設計鏡框 */
 .design{
-	background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/bg.png) center center no-repeat;
+	background: url('../img/design1.jpg') center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -368,7 +372,7 @@ header h2{
 	padding: 14px 16px;
 	background-color: transparent;
 	border: 1px solid #000;
-	outline-color: #AA0601;
+	outline-color: #d84339;
 }
 .contact textarea{
 	height: 136px;
@@ -383,7 +387,7 @@ header h2{
     -moz-appearance: none;
 }
 .contact input[type="submit"]:hover{
-	background-color: #650300;
+	background-color: #bf360c;
 }
 /* 聯絡我們 */
 
@@ -470,9 +474,7 @@ footer .container > div:first-child{
 	}
 }
 @media screen and (max-width:768px){
-	header{
-		background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner-sm.png);
-	}
+	
 	.header-nav{
 		padding: 30px 39px;
 	}
@@ -606,16 +608,16 @@ footer .container > div:first-child{
 	.classic li>div:last-child{
 		display: none;
 	}
-	.classic-item-optical img,
-	.classic-item-optical h4{
+	.classic-item-original img,
+	.classic-item-original h4{
 	display: inherit;
 	}
-	.classic-item-sunglasses img,
-	.classic-item-sunglasses h4{
+	.classic-item-wayfarer img,
+	.classic-item-wayfarer h4{
 	display: inherit;
 	}
-	.classic-item-functional img,
-	.classic-item-functional h4{
+	.classic-item-legends img,
+	.classic-item-legends h4{
 	display: inherit;
 	}
 	.design-item{
