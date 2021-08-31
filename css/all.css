@@ -620,6 +620,9 @@ footer .container > div:first-child{
 	.classic-item-legends h4{
 	display: inherit;
 	}
+	.design{
+		background-attachment: initial;
+	}
 	.design-item{
 		width: 100%;
 	}
